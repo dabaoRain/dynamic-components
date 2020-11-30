@@ -2,7 +2,7 @@
  * @Author: shaohaibin 
  * @Date: 2020-11-28 11:53:54 
  * @Last Modified by: shaohaibin
- * @Last Modified time: 2020-11-28 16:20:31
+ * @Last Modified time: 2020-11-28 16:29:23
  */
 <template>
     <div>
@@ -195,7 +195,7 @@ export default {
       // //记得这里将数组神拷贝一下
       // this.componentList = _.cloneDeep(this.componentList)
 
-      //方法2；
+      //方法2；（推荐）
       //拿到后端数据根据模块将数据存入vuex中 然后子组件监听vuex来渲染各自组件的数据
       //这里就不展示代码了
     }
